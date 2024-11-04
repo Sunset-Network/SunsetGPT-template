@@ -4,7 +4,7 @@
 
 # Steps
 1. Clone the repo using: ```git clone https://github.com/Sunset-Network/SunsetGPT-template.git```
-2. Install the requirements:  ```pip install -r requirements.txt```
+2. Install the requirements:  ```pip install -r requirements.txt``` (Use this in terminal if the requirements.txt doesn't show up)
 3. Create another file named example.env and put these two in the file ```GROQ_API_KEY=your groq api key``` and ```TOKEN=your discord bot token``` next import dotenv in the main.py file add these two ```from dotenv load_dotenv``` and under it ```load_dotenv()``` and when you have your api key and discord bot token just remove the example.env (DO NOT REMOVE THE .env, just example and save the file should disappear) when you are done with these
 4. You can add ID'S it can be role id or user id in this code: admin_ids = [ , ] you can add more id by adding ```,``` after the the two id's you added should be like admin_ids = [ 132213, 111, 111, 111].
 5. Run the bot: ```python main.py```
